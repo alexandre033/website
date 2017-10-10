@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: white
+}
+h2{
+	font-size: 16px
+}
+.btn-primary{
+	background-color:#0000ff!important;
+	border-radius: 0;
+	border-color:#0000ff;
+	-webkit-transition: background-color 0.5s, color 0.5s;
+	transition: background-color 0.5s, color 0.5s;
+	box-shadow: 3px 3px 5px #232323;
+}
+.btn-primary:hover{
+	background-color: white!important;
+	color:black;
+}
+.form-control{
+	border-radius: 0;
+}
+#button{
+	animation: bounce 0.35s ease infinite alternate;
+	width: 70px;
+	height: 70px;
+	background-color: #0000ff;
+	position: absolute;
+    bottom: 30px;
+    right: 50%;
+    box-shadow: 5px 5px 5px #272727;
+    cursor: pointer;
+}
+@keyframes bounce{
+     from {bottom: 30px;}
+     to   {bottom: 50px;}
+}
+#button svg{
+	fill:white;
+	width: 70px;
+	height: 70px;
+}
+.home{
+	display: table;
+	color: white;
+	width: 100%;
+	background-color: #282C34;
+	min-height: 350px;
+	height: 100vh;
+	position:relative;
+	margin-top:0!important;
+}
+.home .container{
+	vertical-align: middle;
+	    display: table-cell;
+	        max-width: 40rem;
+}
+.row{
+	    margin-top: 3rem;
+}
+.Typist{
+	font-size: 4vw;
+	font-size:4em;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 5px 5px 10px #131313;
+}
+/* TYPED */
+.Typist .Cursor {
+  display: inline-block; color: #0000ff;
+    font-weight: bold }
+  .Typist .Cursor--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.container{
+	    margin-top: 50px;
+}
+.skills{
+	background: #FAFAFA;
+	transition: ease 0.5s;
+	margin-top: 20px;
+}
+.skills h2{
+	text-align: center;
+	color: #212121;
+	padding: 20px 0 20px 0;
+}
+.skills span{
+	    height: 40px;
+    background: #0000ff;
+    display: block;
+    text-align: center;
+}
+.skills span svg{
+	fill:white;
+	width: 40px;
+    height: 40px;
+}
+.skills p{
+	padding: 0 20px 20px 20px;
+	margin:0;
+	font-size: 14px
+}
+.col-md-4 .skills:hover{
+box-shadow: 3px 3px 10px #c7c7c7;
+webkit-box-shadow: 3px 3px 10px #c7c7c7
+}
+
+.jumbotron{
+	background-color: #282C34;
+	color:white;
+	margin-top: 50px;
+	border-radius: 0;
+	margin-bottom: 0
+}
+
+
+
+@media (min-width: 62em)
+.cover-container {
+    width: 42rem;
+}
+.contact{
+
+}
+.contact ul{
+	list-style: none;
+    padding: 0;
+
+}
+.contact li{
+	margin-bottom: 10px
+}
+.contact ul li a{
+	color:white
+}
+.contact ul li a:hover{
+	text-decoration: none;
+	color:#0000ff;
+}
+.contact svg{
+	fill:white;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+#footer{
+	text-align: center;
+	color: white;
+	background-color:  #282C34;
+}
+#footer svg{
+	fill:red;
+	width: 15px;
+	height: 15px;
+
+}
+#footer p{
+	margin: 0;
+	font-size: 12px
+}

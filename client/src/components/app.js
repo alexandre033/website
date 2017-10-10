@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Home from './home';
-import Skills from './skills'
+import Skills from './skills';
+import ContactSection from './contact';
+import {Footer} from './footer';
 
 
 class App extends Component{
@@ -10,6 +12,8 @@ class App extends Component{
 			<div>
 				<Home />
 				<Skills/>
+				<ContactSection/>
+				<Footer />
 			</div>
 			)
 	}
