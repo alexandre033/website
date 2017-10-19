@@ -9,9 +9,9 @@ class Home extends Component{
 		const windowHeight = window.innerHeight
 		//scroll de la hauteur defini, s'adapte à tous les ecrans
 		window.scrollTo({
-		  top: windowHeight, 
-		  left: 0, 
-		  behavior: 'smooth' 
+		  top: windowHeight,
+		  left: 0,
+		  behavior: 'smooth'
 		});
 	}
 
@@ -21,15 +21,17 @@ class Home extends Component{
 			<div className="jumbotron home">
 
 				<div className="container">
-				<div className="col-md-3"></div>
-					<div className="col-md-6">
-						<Typist 
-						cursor={{ blink: true, }} avgTypingDelay={100}>
-								Bonjour, Alexandre<br/>
-								Développeur Front-end Freelance
-						 </Typist>
+					<div	className="cont">
+						<div className="header-home">
+							<div className="col-md-12 col-sm-12">
+								<Typist
+								cursor={{ blink: true, }} avgTypingDelay={100}>
+										Bonjour, Alexandre<br/>
+										Développeur Front-end Freelance
+								 </Typist>
+							</div>
+						</div>
 					</div>
-					<div className="col-md-3"></div>
 				</div>
 				<ButtonHome showMore={this.renderMore}/>
 			</div>
