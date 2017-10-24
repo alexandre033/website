@@ -17,8 +17,8 @@ var cors = corsMiddleware({
 var smtpTransport = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-        user: 'beaudouina',
-        pass: 'alexandre033'
+        user: 'your user',
+        pass: 'your mdp'
      }
 });
 
@@ -43,7 +43,7 @@ server.post('/api/email', function create(req, res, next) {
 
 		var mail = {
 					from: req.params.email,
-					to: "beaudouina@gmail.com",
+					to: "your email",
 					subject: "Demande d'informations - Front-end Dev",
 					html: "nom: <br/>" + req.params.nom + "<br/> Message: <br/>" + req.params.message +" <br/>email <br/>"+req.params.email,
 		}
